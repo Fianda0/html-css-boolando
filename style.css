@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.absolute {
+    position: absolute;
+}
+
+/* ************SELETTORI HEADER */
+header {
+    background-color: orangered;
+}
+
+nav {
+    min-height: 50px;
+    max-width: 1300px;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+
+.genere {
+    left: 0px;
+    top: 50%;
+    transform: translatey(-50%);
+}
+
+.logo {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo img {
+    width: 100px;
+}
+
+.profilo {
+    font-size: 1.1rem;
+    right: 0px;
+    top: 50%;
+    transform: translatey(-50%);
+}

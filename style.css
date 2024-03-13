@@ -78,9 +78,14 @@ nav {
     top: 0px;
 }
 
-.card1:hover {
-    opacity: 0.5;
+.card img:hover {
+    opacity: 0;
+}
 
+.hover-img1 {
+    background-image: url('./img/1b.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .card2 {
@@ -89,14 +94,32 @@ nav {
     top: 0px;
 }
 
+.hover-img2 {
+    background-image: url('./img/2b.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 .card3 {
     right: 0px;
     top: 0px;
 }
 
+.hover-img3 {
+    background-image: url('./img/3b.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 .card4 {
     left: 0px;
     bottom: 0px;
+}
+
+.hover-img4 {
+    background-image: url('./img/4b.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .card5 {
@@ -105,9 +128,21 @@ nav {
     bottom: 0px;
 }
 
+.hover-img5 {
+    background-image: url('./img/5b.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 .card6 {
     right: 0px;
     bottom: 0px;
+}
+
+.hover-img6 {
+    background-image: url('./img/6b.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .brand {
@@ -151,6 +186,10 @@ nav {
     padding: 1rem;
     right: 0px;
     top: 20px;
+}
+
+.heart:hover {
+    color: red;
 }
 
 /* *******************INIZIO FOOTER */

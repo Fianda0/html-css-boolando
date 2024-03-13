@@ -78,6 +78,11 @@ nav {
     top: 0px;
 }
 
+.card1:hover {
+    opacity: 0.5;
+
+}
+
 .card2 {
     left: 50%;
     transform: translate(-50%);
@@ -146,4 +151,32 @@ nav {
     padding: 1rem;
     right: 0px;
     top: 20px;
+}
+
+/* *******************INIZIO FOOTER */
+footer {
+    background-color: black;
+}
+
+.container-footer a {
+    padding-right: 1rem;
+}
+
+.container-footer {
+    padding: 1rem 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    min-height: 100px;
+    color: white;
+}
+
+.azienda {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.social {
+    padding-bottom: 1rem;
 }
